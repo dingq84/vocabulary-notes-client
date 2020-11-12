@@ -3,21 +3,27 @@
 	"version": "1.0.0",
 	"scripts": {
 		"dev": "next",
+		"tt": "npx tailwindcss build ./src/styles/index.css -o output.css",
 		"build": "next build",
 		"start": "next start",
+		"export": "next export",
 		"gen-schema-types": "graphql-codegen"
 	},
 	"dependencies": {
 		"@apollo/client": "^3.2.5",
 		"graphql": "^15.4.0",
 		"next": "latest",
+		"next-with-workbox": "^2.0.1",
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
 		"react-hook-form": "^6.11.0",
 		"react-swipe": "^6.0.4",
-		"swipe-js-iso": "^2.1.5"
+		"swipe-js-iso": "^2.1.5",
+		"workbox-precaching": "^5.1.4",
+		"workbox-window": "^5.1.4"
 	},
 	"devDependencies": {
+		"@fullhuman/postcss-purgecss": "^3.0.0",
 		"@graphql-codegen/cli": "^1.19.1",
 		"@graphql-codegen/typescript": "^1.17.11",
 		"@types/node": "^14.14.7",
