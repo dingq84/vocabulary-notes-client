@@ -10,6 +10,17 @@
 .will-update {
 	transform: translateZ(0);
 }
+.top-90 {
+	top: 90%;
+}
+
+.snap-type {
+	scroll-snap-type: x mandatory;
+}
+
+.snap-align {
+	scroll-snap-align: center;
+}
 /* Start purging... */
 @tailwind utilities;
 /* Stop purging. */
