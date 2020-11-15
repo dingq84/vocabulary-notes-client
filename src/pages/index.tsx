@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { useQuery, gql } from '@apollo/client'
-// import ReactSwipe from 'react-swipe'
 
 import Nav from '../components/nav'
 
